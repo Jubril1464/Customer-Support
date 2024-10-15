@@ -5,10 +5,14 @@ export default {
     extend: {
       colors: {
         primaryColor: "#4C6FFF",
+        secondaryColor: "#E1E8FF",
         fontColor: "#27272E",
       },
       fontFamily: {
         inter: ["Inter", "san-serif"],
+      },
+      gridTemplateColumns: {
+        "20": "repeat(20, minmax(0, 1fr))",
       },
     },
   },

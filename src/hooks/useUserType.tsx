@@ -1,9 +1,9 @@
 import { Audit, Compliance,CustomerSupport,Dashboard,Monitoring,Sales,Users,Warning } from "../assets";
 
-import { IMenu } from "../model/interface";
+import { IUser } from "../model/interface";
 
 export const useUserType = () => {
-    const userType: IMenu[] = [
+    const userType: IUser[] = [
       {
         logo: <CustomerSupport />,
         selectedLogo: <CustomerSupport color="#3754DB" />,
