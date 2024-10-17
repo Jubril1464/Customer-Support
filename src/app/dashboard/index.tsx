@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 function Dashboard() {
   return (
     <div className="grid grid-cols-20 h-screen font-inter">
-      <div className="flex flex-col justify-between h-full py-10 px-5 bg-[#edf2f783]">
+      <div className="flex flex-col justify-between h-full py-10 px-5 bg-[#edf2f783] items-center">
         <img src={Logo} alt="logo" className="h-8 w-8" />
         <span>
           <CiCircleQuestion size={32} />
@@ -20,7 +20,7 @@ function Dashboard() {
           <SideMenu />
         </div>
       </div>
-      <div >
+      <div className='col-[5/-1]'>
         <Outlet />
       </div>
     </div>

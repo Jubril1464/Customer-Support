@@ -6,6 +6,7 @@ export default {
       colors: {
         primaryColor: "#4C6FFF",
         secondaryColor: "#E1E8FF",
+        borderColor: "#E2E8F0",
         fontColor: "#27272E",
       },
       fontFamily: {

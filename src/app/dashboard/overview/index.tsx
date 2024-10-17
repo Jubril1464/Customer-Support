@@ -1,5 +1,11 @@
+import DashboardHeader from "@component/Layouts/DashboardHeader";
+
 function Overview() {
-  return <div>overview</div>;
+  return (
+    <div>
+      <DashboardHeader title="Overview" />
+    </div>
+  );
 }
 
 export default Overview;
